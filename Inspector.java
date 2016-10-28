@@ -141,7 +141,74 @@ public class Inspector {
 					}
 				}
 			}
+			
+			//Get fields
+			System.out.println("============================Printing FIELDS information============================");
+			Field[] privateFieldName = ObjClass.getDeclaredFields();
+			if (privateFieldName.length == 0)			//Check if any fields
+			{
+				System.out.println("No Fields Declared");
+			}
+			else
+			{
+				for (Field privateField : privateFieldName)
+				{
+					privateField.setAccessible(true);
+					Object array = null;
+				//	boolean checkPrimitive = privateField.getType().isPrimitive();
+					try {
+						array = privateField.get(obj);
+					} catch (IllegalArgumentException | IllegalAccessException e) {
+						e.printStackTrace();
+					}
 					
+					//if field is an array
+					if (privateField.getType().isArray() && array != null)
+					{	
+						System.out.println("Name of Array: " + privateField.getName());
+						System.out.println("Component Type: " + privateField.getType().getComponentType());
+						System.out.println("Array length: " + Array.getLength(array));
+						
+						//print contents of array 
+						for (int i = 0; i < Array.getLength(array); i++)
+						{
+							System.out.println("Contents of Array: " + Array.get(array, i));
+						}
+					}
+					
+					//Check if field is an object reference. If true (primitive = false), print the reference value, else print value
+					else if ((privateField.getType().isPrimitive() == false) && recursive == false && array != null)
+					{
+						System.out.println("The Reference Value is: " + privateField.getType().getSimpleName() + System.identityHashCode(obj));
+					}
+					else
+					{	
+						
+						// Print declared field
+						String declaredField = privateField.getName();
+						System.out.println("The declared Field is: " + declaredField);
+						
+						//Print the field type
+						System.out.println("The Field Type is: " + privateField.getType());
+						
+						//Print the field modifiers
+						int fieldModifiers = privateField.getModifiers();
+						System.out.println("Field Modifier: " + Modifier.toString(fieldModifiers));
+						
+						
+						//Print current value of field
+						try {
+							
+							System.out.println("Current Field Value: " + privateField.get(obj) + "\n");
+						} catch (IllegalArgumentException | IllegalAccessException e) 
+							{
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+						
+					}
+				}
+			}			
 		}
 }
 
