@@ -1,0 +1,1487 @@
+Script started on Fri 28 Oct 2016 12:45:25 PM MDT
+java Asst2Testdri   Drive]0;edwlee@csx1:~/Desktop/cpsc501assignment2[edwlee@csx1 cpsc501assignment2]$ java Asst2TestDriver Inspector
+Loading object inspector: Inspector
+======================================================
+Running Test: ClassA
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 3
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+======================================================
+======================================================
+Running Test: ClassA
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 12
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+======================================================
+======================================================
+Running Test: ClassB
+The Declaring Class Name is: ClassB
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: ClassC
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: func3
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassB
+Constructor modifier: public
+Constructor parameter types: No parameters used
+============================Printing FIELDS information============================
+The declared Field is: val3
+The Field Type is: class ClassA
+Field Modifier: private
+Current Field Value: null
+
+Field Name of Recursive Full Inspect: val
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 3
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+Field Name of Recursive Full Inspect: val2
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 12
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+======================================================
+======================================================
+Running Test: ClassD
+The Declaring Class Name is: ClassD
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+No Interfaces Implemented
+============================Printing METHOD information============================
+method name: getVal3
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassD
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassD
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val2
+The Field Type is: class ClassA
+Field Modifier: private static
+Current Field Value: null
+
+The declared Field is: val3
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 32
+
+Name of Array: vallarray
+Component Type: class ClassA
+Array length: 10
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Field Name of Recursive Full Inspect: val
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 17
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+======================================================
+======================================================
+Running Test: ClassD
+The Declaring Class Name is: ClassD
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+No Interfaces Implemented
+============================Printing METHOD information============================
+method name: getVal3
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassD
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassD
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val2
+The Field Type is: class ClassA
+Field Modifier: private static
+Current Field Value: null
+
+The declared Field is: val3
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 34
+
+Name of Array: vallarray
+Component Type: class ClassA
+Array length: 10
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Contents of Array: null
+Field Name of Recursive Full Inspect: val
+The Declaring Class Name is: ClassA
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Runnable
+
+============================Printing METHOD information============================
+method name: getVal
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: printSomething
+Return type of method: void
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: run
+Return type of method: void
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: setVal
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: 
+java.lang.Exception 
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: ClassA
+Constructor modifier: public
+Constructor parameter types: 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+The declared Field is: val
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 17
+
+The declared Field is: val2
+The Field Type is: double
+Field Modifier: private
+Current Field Value: 0.2
+
+The declared Field is: val3
+The Field Type is: boolean
+Field Modifier: private
+Current Field Value: true
+
+======================================================
+======================================================
+Running Test: [LClassB;@70dea4e
+The Declaring Class Name is: ClassB[]
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.lang.Cloneable
+
+The Interfaces implemented are: java.io.Serializable
+
+============================Printing METHOD information============================
+============================Printing CONSTRUCTOR information============================
+Constructor name: No Constructors Declared
+============================Printing FIELDS information============================
+No Fields Declared
+======================================================
+======================================================
+Running Test: [[LClassB;@33909752
+The Declaring Class Name is: ClassB[][]
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.lang.Cloneable
+
+The Interfaces implemented are: java.io.Serializable
+
+============================Printing METHOD information============================
+============================Printing CONSTRUCTOR information============================
+Constructor name: No Constructors Declared
+============================Printing FIELDS information============================
+No Fields Declared
+======================================================
+======================================================
+Running Test: Test String
+The Declaring Class Name is: String
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.io.Serializable
+
+The Interfaces implemented are: java.lang.Comparable
+
+The Interfaces implemented are: java.lang.CharSequence
+
+============================Printing METHOD information============================
+method name: equals
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.Object 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: toString
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: hashCode
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: compareTo
+Return type of method: int
+method modifier: public volatile
+Method parameter types: 
+java.lang.Object 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: compareTo
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: static
+Method parameter types: 
+[C 
+int 
+int 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: static
+Method parameter types: 
+[C 
+int 
+int 
+[C 
+int 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+char 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+java.lang.Object 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+boolean 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+[C 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+[C 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+double 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+float 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+long 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: valueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: checkBounds
+Return type of method: void
+method modifier: private static
+Method parameter types: 
+[B 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: length
+Return type of method: int
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: isEmpty
+Return type of method: boolean
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: charAt
+Return type of method: char
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: codePointAt
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: codePointBefore
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: codePointCount
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: offsetByCodePoints
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: getChars
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+int 
+[C 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: getChars
+Return type of method: void
+method modifier: 
+Method parameter types: 
+[C 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: getBytes
+Return type of method: class [B
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: getBytes
+Return type of method: class [B
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: 
+java.io.UnsupportedEncodingException 
+
+method name: getBytes
+Return type of method: void
+method modifier: public
+Method parameter types: 
+int 
+int 
+[B 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: getBytes
+Return type of method: class [B
+method modifier: public
+Method parameter types: 
+java.nio.charset.Charset 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: contentEquals
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.StringBuffer 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: contentEquals
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.CharSequence 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: nonSyncContentEquals
+Return type of method: boolean
+method modifier: private
+Method parameter types: 
+java.lang.AbstractStringBuilder 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: equalsIgnoreCase
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: compareToIgnoreCase
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: regionMatches
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+int 
+java.lang.String 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: regionMatches
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+boolean 
+int 
+java.lang.String 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: startsWith
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: startsWith
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: endsWith
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: indexOfSupplementary
+Return type of method: int
+method modifier: private
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: static
+Method parameter types: 
+[C 
+int 
+int 
+[C 
+int 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: static
+Method parameter types: 
+[C 
+int 
+int 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOf
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: lastIndexOfSupplementary
+Return type of method: int
+method modifier: private
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: substring
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: substring
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: subSequence
+Return type of method: interface java.lang.CharSequence
+method modifier: public
+Method parameter types: 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: concat
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: replace
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+char 
+char 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: replace
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.lang.CharSequence 
+java.lang.CharSequence 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: matches
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: contains
+Return type of method: boolean
+method modifier: public
+Method parameter types: 
+java.lang.CharSequence 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: replaceFirst
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.lang.String 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: replaceAll
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.lang.String 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: split
+Return type of method: class [Ljava.lang.String;
+method modifier: public
+Method parameter types: 
+java.lang.String 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: split
+Return type of method: class [Ljava.lang.String;
+method modifier: public
+Method parameter types: 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: join
+Return type of method: class java.lang.String
+method modifier: public static transient
+Method parameter types: 
+java.lang.CharSequence 
+[Ljava.lang.CharSequence; 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: join
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+java.lang.CharSequence 
+java.lang.Iterable 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: toLowerCase
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.util.Locale 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: toLowerCase
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toUpperCase
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toUpperCase
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: 
+java.util.Locale 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: trim
+Return type of method: class java.lang.String
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: toCharArray
+Return type of method: class [C
+method modifier: public
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+method name: format
+Return type of method: class java.lang.String
+method modifier: public static transient
+Method parameter types: 
+java.util.Locale 
+java.lang.String 
+[Ljava.lang.Object; 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: format
+Return type of method: class java.lang.String
+method modifier: public static transient
+Method parameter types: 
+java.lang.String 
+[Ljava.lang.Object; 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: copyValueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+[C 
+int 
+int 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: copyValueOf
+Return type of method: class java.lang.String
+method modifier: public static
+Method parameter types: 
+[C 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: intern
+Return type of method: class java.lang.String
+method modifier: public native
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+int 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+java.nio.charset.Charset 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+java.lang.String 
+
+Exception thrown by constructors: 
+java.io.UnsupportedEncodingException 
+
+*********************
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+int 
+int 
+java.nio.charset.Charset 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+int 
+int 
+java.lang.String 
+
+Exception thrown by constructors: 
+java.io.UnsupportedEncodingException 
+
+*********************
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+java.lang.StringBuilder 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+java.lang.StringBuffer 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[I 
+int 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: No parameters used
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[C 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+java.lang.String 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[C 
+int 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+Constructor name: java.lang.String
+Constructor modifier: public
+Constructor parameter types: 
+[B 
+int 
+int 
+int 
+
+Exception thrown by Constructor: No Exceptions thrown
+============================Printing FIELDS information============================
+Name of Array: value
+Component Type: char
+Array length: 11
+Contents of Array: T
+Contents of Array: e
+Contents of Array: s
+Contents of Array: t
+Contents of Array:  
+Contents of Array: S
+Contents of Array: t
+Contents of Array: r
+Contents of Array: i
+Contents of Array: n
+Contents of Array: g
+The declared Field is: hash
+The Field Type is: int
+Field Modifier: private
+Current Field Value: 0
+
+The declared Field is: serialVersionUID
+The Field Type is: long
+Field Modifier: private static final
+Current Field Value: -6849794470754667710
+
+Name of Array: serialPersistentFields
+Component Type: class java.io.ObjectStreamField
+Array length: 0
+Field Name of Recursive Full Inspect: CASE_INSENSITIVE_ORDER
+The Declaring Class Name is: CaseInsensitiveComparator
+
+============================Printing SUPERCLASS information============================
+Immediate SuperClass: Object
+
+============================Printing INTERFACES information============================
+The Interfaces implemented are: java.util.Comparator
+
+The Interfaces implemented are: java.io.Serializable
+
+============================Printing METHOD information============================
+method name: compare
+Return type of method: int
+method modifier: public volatile
+Method parameter types: 
+java.lang.Object 
+java.lang.Object 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: compare
+Return type of method: int
+method modifier: public
+Method parameter types: 
+java.lang.String 
+java.lang.String 
+
+Exception thrown by method: No Exceptions thrown
+
+method name: readResolve
+Return type of method: class java.lang.Object
+method modifier: private
+Method parameter types: No parameters used
+Exception thrown by method: No Exceptions thrown
+
+============================Printing CONSTRUCTOR information============================
+Constructor name: No Constructors Declared
+============================Printing FIELDS information============================
+The declared Field is: serialVersionUID
+The Field Type is: long
+Field Modifier: private static final
+Current Field Value: 8575799808933029326
+
+======================================================
+]0;edwlee@csx1:~/Desktop/cpsc501assignment2[edwlee@csx1 cpsc501assignment2]$ exit
+exit
+
+Script done on Fri 28 Oct 2016 12:45:57 PM MDT
