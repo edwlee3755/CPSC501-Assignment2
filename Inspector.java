@@ -30,7 +30,7 @@ public class Inspector {
 				{
 					privateField.setAccessible(true);
 					Object array = null;
-				//	boolean checkPrimitive = privateField.getType().isPrimitive();
+					boolean checkPrimitive = privateField.getType().isPrimitive();
 					try {
 						array = privateField.get(obj);
 					} catch (IllegalArgumentException | IllegalAccessException e) {
@@ -52,13 +52,13 @@ public class Inspector {
 					}
 					
 					//Store objects to fully inspect in an array to do later (after finishing off original print tasks)
-					else if ((privateField.getType().isPrimitive() == false) && recursive == true && array != null)
+					else if ((checkPrimitive == false) && recursive == true && array != null)
 					{
 						recursiveObjectsToInspect.add(privateField);
 					}
 					
 					//Check if field is an object reference. If true (primitive = false), print the reference value, else print value
-					else if ((privateField.getType().isPrimitive() == false) && recursive == false && array != null)
+					else if ((checkPrimitive == false) && recursive == false && array != null)
 					{
 						System.out.println("The Reference Value is: " + privateField.getType().getSimpleName() + System.identityHashCode(obj));
 					}
@@ -89,7 +89,21 @@ public class Inspector {
 						
 					}
 					
+					/* doesnt work
+					 
+					try {
+						if (!privateField.get(obj).getClass().getSuperclass().getSimpleName().equals("Object") && (superclass != null))
+						{
+							System.out.println("Printing out Superclass Hierarchy Information: ");
+							inspect(obj, recursive);
+						}
+					} catch (IllegalArgumentException | IllegalAccessException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}	
+					*/	
 				}
+				
 			}
 			
 			// iterate through list of objects needing full inspects. 
@@ -110,11 +124,6 @@ public class Inspector {
 			
 				recursiveObjectsToInspect.clear();
 			}
-			if ((superclass != null) && !superclass.isInstance(Object.class))
-			{
-				System.out.println("Printing out Superclass Hierarchy Information: ");
-				inspect(obj, recursive);
-			}		
 		}
 	public void inspectDeclaringClass(Class ObjClass) 
 	{
