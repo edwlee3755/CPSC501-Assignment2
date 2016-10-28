@@ -8,18 +8,18 @@ public class Inspector {
 			List<Field> recursiveObjectsToInspect = new ArrayList<Field>();
 			
 			//Print Declaring Class of Object
-			Class ObjClass = obj.getClass();
-			Class superclass = ObjClass.getSuperclass();	 //return superclass
+			Class objClass = obj.getClass();
+			Class superclass = objClass.getSuperclass();	 //return superclass
 			
-			inspectDeclaringClass(ObjClass);
-			inspectImmediateSuperclass(ObjClass);
-			inspectInterfaces(ObjClass);
-			inspectMethods(ObjClass);
-			inspectConstructors(ObjClass);
+			inspectDeclaringClass(objClass);
+			inspectSuperclass(objClass);
+			inspectInterfaces(objClass);
+			inspectMethods(objClass);
+			inspectConstructors(objClass);
 
 			//Get fields
 			System.out.println("============================Printing FIELDS information============================");
-			Field[] privateFieldName = ObjClass.getDeclaredFields();
+			Field[] privateFieldName = objClass.getDeclaredFields();
 			if (privateFieldName.length == 0)			//Check if any fields
 			{
 				System.out.println("No Fields Declared");
@@ -88,20 +88,6 @@ public class Inspector {
 							}
 						
 					}
-					
-					/* doesnt work
-					 
-					try {
-						if (!privateField.get(obj).getClass().getSuperclass().getSimpleName().equals("Object") && (superclass != null))
-						{
-							System.out.println("Printing out Superclass Hierarchy Information: ");
-							inspect(obj, recursive);
-						}
-					} catch (IllegalArgumentException | IllegalAccessException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}	
-					*/	
 				}
 				
 			}
@@ -125,32 +111,28 @@ public class Inspector {
 				recursiveObjectsToInspect.clear();
 			}
 		}
-	public void inspectDeclaringClass(Class ObjClass) 
+	public void inspectDeclaringClass(Class objClass) 
 	{
-		String className = ObjClass.getSimpleName();
+		String className = objClass.getSimpleName();
 		System.out.println("The Declaring Class Name is: " + className + "\n");
 				
 	}	
 	
-	public void inspectImmediateSuperclass(Class ObjClass)
+	public void inspectSuperclass(Class objClass)
 	{
 			//Print immediate SuperClass
 			System.out.println("============================Printing SUPERCLASS information============================");
-			Class superClass = ObjClass.getSuperclass();
+			Class superClass = objClass.getSuperclass();
 			String immediateClassName = superClass.getSimpleName();
 			System.out.println("Immediate SuperClass: " + immediateClassName + "\n");
 	}	
-	//		if ( (!superclass.isInstance(Object.class) ) && superclass != null )
-	//		{
-	//			traverseHierarchy.add(superclass);
-	//		}
+
 			
-			
-	public void inspectInterfaces(Class ObjClass)
+	public void inspectInterfaces(Class objClass)
 	{
 			//The name of the interfaces the class implements
 			System.out.println("============================Printing INTERFACES information============================");
-			Class[] interfaceClass = ObjClass.getInterfaces();
+			Class[] interfaceClass = objClass.getInterfaces();
 			if (interfaceClass.length == 0)			//Check if an interface is implemented
 			{
 				System.out.println("No Interfaces Implemented");
@@ -164,11 +146,11 @@ public class Inspector {
 			}
 	}
 	
-	public void inspectMethods(Class ObjClass)
+	public void inspectMethods(Class objClass)
 	{
 			//The methods the class declares
 			System.out.println("============================Printing METHOD information============================");
-			Method[] methods = ObjClass.getDeclaredMethods();
+			Method[] methods = objClass.getDeclaredMethods();
 			
 			for(Method method: methods)
 			{
@@ -216,11 +198,11 @@ public class Inspector {
 			}
 	}
 	
-	public void inspectConstructors(Class ObjClass)
+	public void inspectConstructors(Class objClass)
 	{
 			//Constructors the class declares
 			System.out.println("============================Printing CONSTRUCTOR information============================");
-			Constructor[] constructors = ObjClass.getConstructors();
+			Constructor[] constructors = objClass.getConstructors();
 			
 			if (constructors.length == 0)			//Check if constructor is declared
 			{
