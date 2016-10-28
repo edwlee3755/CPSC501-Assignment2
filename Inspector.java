@@ -5,6 +5,7 @@ public class Inspector {
 	
 	public void inspect(Object obj, boolean recursive)
 	{
+			List<Field> recursiveObjectsToInspect = new ArrayList();
 			
 			//Print Declaring Class of Object
 			Class ObjClass = obj.getClass();
@@ -176,6 +177,12 @@ public class Inspector {
 						}
 					}
 					
+					//Store objects to fully inspect in an array to do later (after finishing off original print tasks)
+					else if ((privateField.getType().isPrimitive() == false) && recursive == true && array != null)
+					{
+						recursiveObjectsToInspect.add(privateField);
+					}
+					
 					//Check if field is an object reference. If true (primitive = false), print the reference value, else print value
 					else if ((privateField.getType().isPrimitive() == false) && recursive == false && array != null)
 					{
@@ -208,7 +215,26 @@ public class Inspector {
 						
 					}
 				}
-			}			
+			}
+			
+			// iterate through list of objects needing full inspects. 
+			if (!(recursiveObjectsToInspect.isEmpty()) && recursive == true)
+			{
+				Field recursiveField;
+				for (int index = 0; index < recursiveObjectsToInspect.size(); index++)
+				{
+					recursiveField = recursiveObjectsToInspect.get(index);
+					System.out.println("Field Name of Recursive Full Inspect: " + recursiveField.getName());
+					try {
+						inspect(recursiveField.get(obj), recursive);
+					} catch (IllegalArgumentException | IllegalAccessException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			
+				recursiveObjectsToInspect.clear();
+			}
 		}
 }
 
