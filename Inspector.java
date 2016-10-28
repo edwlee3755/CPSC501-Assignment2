@@ -6,7 +6,6 @@ public class Inspector {
 	public void inspect(Object obj, boolean recursive)
 	{
 			List<Field> recursiveObjectsToInspect = new ArrayList<Field>();
-//			List<Class> traverseHierarchy = new ArrayList<Class>();
 			
 			//Print Declaring Class of Object
 			Class ObjClass = obj.getClass();
@@ -111,20 +110,11 @@ public class Inspector {
 			
 				recursiveObjectsToInspect.clear();
 			}
-			
-			/*
-			if (!traverseHierarchy.isEmpty())
+			if ((superclass != null) && !superclass.isInstance(Object.class))
 			{
-				Class recursiveClass;
-				for (int classIndex = 0; classIndex < traverseHierarchy.size(); classIndex++)
-				{
-					recursiveClass = traverseHierarchy.get(classIndex);
-					System.out.println("Printing out Superclass Hierarchy Information: ");
-					inspect(recursiveClass.get(obj), recursive);
-				}
-			}
-			*/
-			
+				System.out.println("Printing out Superclass Hierarchy Information: ");
+				inspect(obj, recursive);
+			}		
 		}
 	public void inspectDeclaringClass(Class ObjClass) 
 	{
